@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "TTT",
+      "TTT",
+      "TTT"
+  ],
+  "key": {
+      "T": {
+          "item": "minecraft2_0:titanium_ingot"
+      }
+  },
+    "result": {
+        "item": "minecraft2_0:titanium_block",
+      "count": 1
+    }
+}

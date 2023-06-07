@@ -16,12 +16,21 @@ public class ModItems {
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().meat().hunger(4).saturationModifier(2f).build())
                     .maxCount(128)));
+
+    public static final Item RAW_TITANIUM = registerItem("raw_titanium",
+            new Item(new FabricItemSettings()));
+
+    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot",
+            new Item(new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Minecraft2_0.MOD_ID, name), item);
     }
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, BEEF_JERKY);
+        addToItemGroup(ItemGroups.NATURAL, RAW_TITANIUM);
+        addToItemGroup(ItemGroups.NATURAL, TITANIUM_INGOT);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

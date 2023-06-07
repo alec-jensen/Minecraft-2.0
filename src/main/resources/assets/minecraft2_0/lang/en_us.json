@@ -1,3 +1,7 @@
 {
-  "item.minecraft2_0.beef_jerky": "Beef Jerky"
+  "item.minecraft2_0.beef_jerky": "Beef Jerky",
+  "item.minecraft2_0.raw_titanium": "Raw Titanium",
+  "item.minecraft2_0.titanium_ingot": "Titanium Ingot",
+  "block.minecraft2_0.titanium_ore": "Titanium Ore",
+  "block.minecraft2_0.titanium_block": "Titanium Block"
 }

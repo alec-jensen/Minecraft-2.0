@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "example",
+  "id": "minecraft2_0",
   "version": "${version}",
 
   "name": "Minecraft 2.0",
@@ -9,8 +9,8 @@
     "Alec Jensen"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/alec-jensen/Minecraft-2.0/wiki",
+    "sources": "https://github.com/alec-jensen/Minecraft-2.0"
   },
 
   "license": "GNU GPLv3",
